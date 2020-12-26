@@ -1,0 +1,12 @@
+.boardCard {
+  --transition-speed: 600ms;
+  height: 100%;
+  color: #b6b6b6;
+  text-decoration: none;
+  /* filter: grayscale(100%) opacity(0.75); */
+  transition: background-color var(--transition-speed) ease;
+}
+
+.boardCard:hover {
+  background-color: #ebebeb;
+}
